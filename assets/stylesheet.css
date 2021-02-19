@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Norwester';
+    src: url('Norwester-Regular.eot');
+    src: url('Norwester-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Norwester-Regular.woff2') format('woff2'),
+        url('Norwester-Regular.woff') format('woff'),
+        url('Norwester-Regular.ttf') format('truetype'),
+        url('Norwester-Regular.svg#Norwester-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body, html {
+    margin: 0px;
+    padding: 0px;
+    background-color: #091E30;
+    font-family: 'Norwester';
+    font-size: 2rem;
+}
+.container {
+    width: 90%;
+    min-width: 500px;
+    margin: auto;
+}
+p {
+    font-family: 'Norwester';
+    font-size: 2rem;
+    text-align: center;
+    color: #042A3F;
+}
+a:link, a:visited {
+    color: #042A3F;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+.text1 {
+    text-align: center;
+    color: #ffffff;
+    animation: text 6s 4;  
+}
+.text2 {
+    text-align: center;
+    color: #ffffff;
+    animation: text 10s 4; 
+}
+.text3 {
+    text-align: center;
+    color: #ffffff;
+    animation: text 15s 4;
+}
+@keyframes text{
+    0%{
+        color: #161721;
+        margin-bottom: 2rem;
+    }
+}
+.container2 {
+    width: 100%;
+    min-width: 500px;
+    margin: left;
+}
+.text4 {
+    animation-name: example;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    from {color: #670A20;}
+    to {color: black;}
+}
+
